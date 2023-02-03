@@ -1,0 +1,203 @@
+header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1580px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: #5E5657;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+#theme{
+    position: absolute;
+    left: 1200px;
+    top: 90px;
+}
+
+#lside{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #F5B393;
+}
+
+#lside a{
+    text-decoration: none;
+    margin: 10px;
+    color: #D26A6A;
+}
+
+
+#rside{
+    position: absolute;
+    width: 270px;
+    height: 100%;
+    left: 1324px;
+    top: 0px;
+    background: #F5B393;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.pic{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 301px;
+    top: 5px;
+
+    background: url(image.png);
+} 
+
+h2{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.main{
+    position: absolute;
+    width: 655px;
+    left: 296px;
+    top: 80px;
+}
+
+.water_pic{
+    position: absolute;
+    width: 271px;
+    height: 396px;
+    left: 711px;
+    top: 258px;
+}
+
+.water_pic_txt{
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 760px;
+    top: 684px;
+
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.agile_pic{
+    position: absolute;
+    width: 276px;
+    height: 389px;
+    left: 709px;
+    top: 813px;
+}
+
+.agile_pic_txt{
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    left: 779px;
+    top: 1228px;
+
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1570px;
+    height: 50px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+
+    background: #5E5657;
+
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+footer div{
+    margin:20px;
+}
+
+/* Здесь начинается форма*/
+form{
+    font-size: 18px;
+}
+
+fieldset{
+    width: 420px;
+}
+
+textarea{
+    resize: none;
+    height: 75px;
+    width: 350px;
+}
+
+input:required:invalid{
+      border:2px solid red;
+      border-radius: 2px;
+}
+
+input:required:valid{
+      border:2px solid green;
+      border-radius: 2px;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 20px;
+}
+
+input[type="email"]{
+    width: 200px;
+    height: 20px;
+}
+
+
+body{
+    position: relative;
+    width: 100%;
+    height: 2300px;
+    background: #E19192;
+    margin:0;
+    padding:0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    color: #000000;
+}
