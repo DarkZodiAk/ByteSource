@@ -90,15 +90,6 @@ h4 {
     margin-bottom: 15px;
 }
 
-.title{
-    position: relative;
-}
-
-h4 a{
-    text-decoration: none;
-    color: #000000;
-}
-
 /*Главный div. В нем пишется весь текст статьи*/
 .main{
     position: absolute;
@@ -123,14 +114,43 @@ h4 a{
     margin-bottom: 10px;
 }
 
+.title{
+    position: relative;
+}
+
+h4 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.short{
+    margin-bottom: 10px;
+}
+
+.see-more{
+    border: 1px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+}
+
 .data-icons{
+    padding-top: 10px;
     height: 40px;
     display: flex;
 }
 
-.data-icons span{
-    margin: 10px;
+.data-icons div{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
 }
+
+.data-icons span{
+    margin-left: 10px;
+}
+
 
 /*Эти 4 класса относятся к картинкам статьи в article.php*/
 .water_pic{
