@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="parent">
+    <header>
         <img src="img/logo.png" alt="logo" class="pic">
         <a href="#">Waterfall и Agile</a>
         <a href="#">Что такое DevOps?</a>

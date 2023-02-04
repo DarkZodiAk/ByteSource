@@ -1,13 +1,10 @@
 header{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1580px;
-    height: 80px;
+    width: 1594px;
+    height: 65px;
     left: 0px;
     top: 0px;
-    z-index: -1;
+    z-index: 1;
     background: #5E5657;
 
     font-size: 20px;
@@ -37,7 +34,6 @@ header{
 #lside a{
     text-decoration: none;
     margin: 10px;
-    color: #D26A6A;
 }
 
 
