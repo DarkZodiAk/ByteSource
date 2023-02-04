@@ -1,13 +1,10 @@
 header{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1580px;
-    height: 80px;
+    width: 1594px;
+    height: 65px;
     left: 0px;
     top: 0px;
-    z-index: -1;
+    z-index: 1;
     background: #5E5657;
 
     font-size: 20px;
@@ -37,7 +34,6 @@ header{
 #lside a{
     text-decoration: none;
     margin: 10px;
-    color: #D26A6A;
 }
 
 
@@ -56,6 +52,21 @@ header a{
     margin: 20px;
 }
 
+#logo{
+    position: absolute;
+    left: 285px;
+    top: 20px;
+    font-size: 24px;
+}
+
+/*Для кнопок войти и регистрации*/
+.sign{
+    position: absolute;
+    right: 285px;
+    top: 22px;
+}
+
+/*Просто картинка (старое лого)*/
 .pic{
     position: absolute;
     width: 70px;
@@ -79,7 +90,7 @@ h4 {
     margin-bottom: 15px;
 }
 
-
+/*Главный div. В нем пишется весь текст статьи*/
 .main{
     position: absolute;
     width: 655px;
@@ -87,6 +98,61 @@ h4 {
     top: 80px;
 }
 
+.main-articles{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    width: 1000px;
+    left: 290px;
+    top: 80px;
+}
+
+.block{
+    padding: 10px;
+    width: 1000px;
+    background: #E1DED5;
+    margin-bottom: 10px;
+}
+
+.title{
+    position: relative;
+}
+
+h4 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.short{
+    margin-bottom: 10px;
+}
+
+.see-more{
+    border: 1px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+}
+
+.data-icons{
+    padding-top: 10px;
+    height: 40px;
+    display: flex;
+}
+
+.data-icons div{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.data-icons span{
+    margin-left: 10px;
+}
+
+
+/*Эти 4 класса относятся к картинкам статьи в article.php*/
 .water_pic{
     position: absolute;
     width: 271px;
