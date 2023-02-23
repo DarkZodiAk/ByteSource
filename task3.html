@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div p{
+            background: aquamarine;
+        }
+
+        div h2{
+            background: coral;
+            transform: rotate(-1deg);
+        }
+
+        #test p{
+            color:blue;
+        }
+
+        #test h2{
+            text-decoration: underline;
+            background: chartreuse;
+            transform: rotate(1deg);
+            font-style: normal;
+        }
+
+        .bbb{
+            border: 3px dashed black;
+        }
+
+        #test .bbb{
+            text-align: center;
+            color: #529c43d8;
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        p.bbb{
+            text-align: center;
+            border-radius: 10px;
+            width: 80%;
+        }
+
+        h2.bbb{
+            position: absolute;
+            right:10px;
+            width: 187px;
+            border: double;
+        }
+        
+        #test p.bbb{
+            width: 80%;
+            border: solid 3px;
+        }
+
+        div h2, p{
+            color: red;
+        } /*10*/
+
+        .bbb, .xxx{
+            font-style: italic; 
+            padding: 5px
+        }
+
+        p.bbb, h2.xxx{
+            text-align: right;
+            border: ridge 7px cornflowerblue;
+            color: greenyellow;
+            background: #09478f;
+            font-size: 20px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            width: 25%;
+        }
+
+        #test p.bbb, #test p.xxx{
+            position: relative;
+            left: 40%;
+            border: 5px groove green;
+            background: rgb(255, 255, 0);
+            height: 50px;
+            width: 345px;
+        }
+            
+        .fff *{
+            margin: 30px;
+            border: 20px;
+            border: 3px solid black;
+            padding: 10px;
+            border-radius: 100%;
+        } /*14*/
+
+        .fff p{
+            position: relative;
+            background-color: burlywood;
+            color: rgb(105, 9, 81);
+            width: 460px;
+            text-align: center;
+        }
+
+        p.fff{
+            position: absolute;
+            display: inline;
+            top: 500px;
+            right: 200px;
+            transform: rotate(-30deg);
+            font-size: 18px;
+
+        }
+
+        .fff .bbb{
+            color:#e68f0e;
+            background: black;
+            border-radius: 10%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+
+        .fff h2.bbb{
+            position: static;
+            background: #8f095c;
+            transform: rotate3d(40,50,10,30deg);
+        } /*18*/
+
+        #test a:visited, #test a:link{
+            text-decoration: none;
+            color: red;
+        }
+
+        #test a:hover{
+            text-decoration: underline;
+            color: rgb(87, 169, 236);
+        } /*19*/
+
+        a.www:link, a.www:visited{
+            text-decoration: underline;
+            color: rgb(87, 169, 236);
+        }
+
+        a.www:hover{
+            text-decoration: none;
+        } /*20*/
+
+        #test a.www:link{
+            color: green;
+        } /*21*/
+
+        #test a.www:visited{
+            color: #09478f;
+        }
+
+        #test a.www:hover{
+            position: relative;
+            left: 100px;
+            color: #8f095c;
+        }/*21*/
+
+        .eee a.www:link{
+            color: green;
+        } /*22*/
+
+        .eee a.www:visited{
+            color: #e68f0e;
+        }
+
+        .eee a.www:hover{
+            position: relative;
+            top: 10px;
+            color: darkred;
+            padding: 5px;
+            border: 3px ridge;
+            border-radius: 4px;
+            border-color: darkred;
+        }/*22*/
+
+        p>i{
+            position: relative;
+            left: 15%;
+            font-size: 21px;
+            color:#09478f;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: line-through;
+        }
+
+        ul>li{
+            display: inline;
+            padding: 6px;
+            border: 3px dotted blue;
+        }
+
+        p>a, a.test{
+            display: inline;
+            border-bottom: 5px solid cadetblue;
+            border-top: 5px groove cadetblue;
+            margin: 20px;
+            font-size: 30px;
+            text-decoration: overline;
+        }
+
+        b+i{
+            text-align: center;
+            text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #cad5e2 5px 5px 0;
+            font-size: 21px;
+        }
+
+        #test b+i{
+            text-decoration: wavy;
+            color: #e68f0e;
+            background: #09478f;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        ul+p{
+            padding: 10px;
+            border: 3px dashed black;
+            font-size: 30px; 
+            border-left: 5px solid blueviolet;
+            background: #cad5e2;
+        }
+
+        h1~p{
+            font-size: 23px;
+            text-shadow: #8400ff 0 0 3px;
+            color: transparent;
+        }
+
+        #test h2 ~ p{
+            display: inline;
+            font-size: 23px;
+            color: black;
+            border: 4px dotted crimson;
+            padding: 10px;
+            text-shadow: crimson 0 0 10px;
+        }
+
+        p * i{
+            font: bold 3em Arial, sans-serif;
+            color: #f0f0f0;
+            text-shadow: #fff -1px -1px 0, 
+                        #333 1px 1px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Задание 1</p>
+        <h2>Задание 2</h2>
+    </div>
+    <div id="test">
+        <p>Задание 3</p>
+        <h2>Задание 4</h2>
+    </div>
+    <span class="bbb">Задание 5</span>
+    <div id="test">
+        <div class="bbb">Задание 6</div>
+    </div>
+    <p class="bbb">Задание 7</p>
+    <h2 class="bbb">Задание 8</h2>
+    <div id="test">
+        <p class="bbb">Задание 9</p>
+    </div>
+    <span class="xxx">Задание 11</span>
+    <span class="bbb">Задание 11</span>
+    <p class="bbb">Задание 12</p>
+    <h2 class="xxx">Задание 12</h2>
+    <div id="test">
+        <p class="bbb">Задание 13</p>
+        <p class="xxx">Задание 13</p>
+    </div>
+
+    <article class="fff">
+        <span>Задание 14</span>
+        <span>Задание 14</span>
+        <p>Задание 15</p>
+    </article>
+
+    <p class="fff">
+        Задание 16<br><br>
+        <span class="bbb">Задание 17</span>
+    </p>
+
+    <article class="fff">
+        <h2 class="bbb">Задание 18</h2>
+    </article>
+
+    <br>
+    <div id="test">
+        <a href="">Задание 19</a>
+    </div>
+    <div>
+        <a class="www" href="">Задание 20</a>
+    </div>
+    <div id="test">
+        <a class="www" href="">Задание 21</a>
+    </div>
+    <div class="eee">
+        <a class="www" href="">Задание 22</a>
+    </div>
+
+    <p>
+        <i>Задание 23</i>
+    </p>
+
+    <ul>
+        <li>Задание 24</li>
+    </ul>
+
+    <p>
+        Задание 28
+        <a href="">Задание 25</a>
+    </p>
+    <a class="test" href="">Задание 25</a>
+
+    <b>текст</b>
+    <i>Задание 26</i>
+    <br><br><br>
+    <div id="test">
+        <b>текст</b>
+        <i>Задание 27</i>
+    </div>
+
+    <h1>Sample header</h1>
+    <p>Задание 29</p>
+    <div><p>This paragraph doesn't match protocol 29 requirements!</p></div>
+    <p>Задание 29</p>
+
+    <article id="test">
+        <h2>Final</h2>
+        <p>Задание 30 (*светится*)</p>
+    </article>
+
+    <p>
+        <span>
+            <i>Задание 31</i>
+        </span>
+    </p>
+
+</body>
+</html>
